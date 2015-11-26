@@ -1,0 +1,3 @@
+Wifi adapters instellen voor verbinding met AP netwerk.
+Verdacht ingewikkeld
+SSH opstellen via Putty
