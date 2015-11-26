@@ -1,3 +1,8 @@
 Wifi adapters instellen voor verbinding met AP netwerk.
 Verdacht ingewikkeld
 SSH opstellen via Putty
+Guidelines gevolgd van: http://www.howtogeek.com/167425/how-to-setup-wi-fi-on-your-raspberry-pi-via-the-command-line/
+	interfaces file wireless gegevens toegevoegd
+	in wpa_supplicant file loging gegevens toegevoegd
+	Link met uitleg: http://www.freebsd.org/cgi/man.cgi?query=wpa_supplicant.conf&sektion=5&n=1
+	WPA SUPPLICANT FILE NOG NIET IN ORDE WAARSCHIJNLIJK
