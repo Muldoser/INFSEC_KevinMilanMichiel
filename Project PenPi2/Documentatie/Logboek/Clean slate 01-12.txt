@@ -1,0 +1,23 @@
+CLEAN SLATE
+
+- Opnieuw raspbian geïnstalleerd.
+- Gui startup geïnitieerd (niet per se nodig aangezien we veel met ssh werken)
+- Passwd updated
+- ifconfig ipv4 result: 192.168.0.198 - gebruik voor ssh connection (connectiemogelijkheid is geactiveerd)
+- Drivers installeren voor Alfa Network wifi-adapter (http://www.alfa.com.tw/products_show.php?pc=34&ps=92 - Awus036H)
+		*) Problemen bij installatie drivers: we proberen de drivers te installeren via 'make' (zie http://askubuntu.com/questions/178009/how-do-i-install-drivers-for-the-alfa-awus036h-usb-wireless-adapter), 
+			er worden fouten weergegeven bij het installeren van de linux-headers. Dit heeft te maken met	
+			de kernelversie.
+		*) Poging: algemene update (was nog niet gebeurd ^^')
+				sudo apt-get update 		
+				sudo apt-get upgrade
+		*) Compiler update to gcc 4.8
+				sudo apt-get install gcc-4.8 g++-4.8 (https://github.com/notro/rpi-source/wiki)
+				(jessie compiler https://somewideopenspace.wordpress.com/2014/02/28/gcc-4-8-on-raspberry-pi-wheezy/,
+				wij hebben wheezy geïnstalleerd op onze raspberry)
+		*) rpi-source wordt gebruikt om de kernel op raspbian te kunnen gebruiken (https://github.com/notro/rpi-source/wiki).
+			Deze updaten we dus ook.
+			
+			
+
+- Netwerkinstellingen aanpassen voor gebruik van wifi (via)
