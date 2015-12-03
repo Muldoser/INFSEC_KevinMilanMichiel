@@ -14,4 +14,8 @@ Clean slate 03-12
 - Drivers installeren overgeslagen, volgens mij is het plug-and-play...
 - Brug gemaakt op school met ethernetverbinding tussen laptop en raspberry, voorlopig wpa enterprise overslagen
 - Verdergaan: EMAIL MET IPADDRESS vanaf de raspberry connected is, zodat verbinding via ssh mogelijk is.
-- 
+		--> MailMe.py scriptje
+- mailme.py werkt (sudo python mailme.py)
+- mail laten verzenden bij boot (http://elinux.org/RPi_Email_IP_On_Boot_Debian#LET.27S_DO_IT.21)
+		--> mailme.py laten uitvoeren in rc.local, dit wordt uitgevoerd bij bootup.
+-
