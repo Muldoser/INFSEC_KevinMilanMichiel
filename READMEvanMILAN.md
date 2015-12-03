@@ -1,2 +1,0 @@
-# informationsecurity-infsec_michielmilan
-informationsecurity-infsec_michielmilan created by Classroom for GitHub

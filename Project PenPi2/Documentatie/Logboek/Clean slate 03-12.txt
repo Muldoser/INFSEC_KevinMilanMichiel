@@ -5,5 +5,12 @@ Clean slate 03-12
 - Eerste ip adres voor ssh: 192.168.0.200 (via MijnTelenet hehe ^^) (ifconfig ipv6: fe80::a994:e9b0:1dc1:d804)
 - passwd veranderd (zie LoginGegevens.txt) (hostname veranderd naar penpi (pi@penpi))
 - apt-get update en upgrade uitgevoerd
-- Compiler geupdate (4.9)
-- 
+- Compiler geupdated (4.9)
+- Sidenote: zip en unzip installed (apt-get)
+- Wederom foutmelding bij poging tot installatie van wifidrivers (http://askubuntu.com/questions/178009/how-do-i-install-drivers-for-the-alfa-awus036h-usb-wireless-adapter))
+	Melding:
+		"	E: Unable to locate package linux-headers-4.1.13
+			E: Couldn't find any package by regex 'linux-headers-4.1.13'"
+- Drivers installeren overgeslagen, volgens mij is het plug-and-play...
+- Brug gemaakt op school met ethernetverbinding tussen laptop en raspberry, voorlopig wpa enterprise overslagen
+- Verdergaan: EMAIL MET IPADDRESS vanaf de raspberry connected is, zodat verbinding via ssh mogelijk is.
