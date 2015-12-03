@@ -14,3 +14,4 @@ Clean slate 03-12
 - Drivers installeren overgeslagen, volgens mij is het plug-and-play...
 - Brug gemaakt op school met ethernetverbinding tussen laptop en raspberry, voorlopig wpa enterprise overslagen
 - Verdergaan: EMAIL MET IPADDRESS vanaf de raspberry connected is, zodat verbinding via ssh mogelijk is.
+- 
