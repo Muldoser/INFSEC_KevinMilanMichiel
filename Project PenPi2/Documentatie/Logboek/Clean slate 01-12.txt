@@ -1,6 +1,6 @@
 CLEAN SLATE
 
-- Opnieuw raspbian geïnstalleerd.
+- Opnieuw raspbian geïnstalleerd (wheezy).
 - Gui startup geïnitieerd (niet per se nodig aangezien we veel met ssh werken)
 - Passwd updated
 - ifconfig ipv4 result: 192.168.0.198 - gebruik voor ssh connection (connectiemogelijkheid is geactiveerd)

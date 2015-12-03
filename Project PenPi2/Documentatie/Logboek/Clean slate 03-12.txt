@@ -1,0 +1,9 @@
+Clean slate 03-12
+
+- Raspbian opnieuw installeren, reden: info over versie jessie in grotere mate aanwezig t.o.v. wheezy 
+	(jessie alsook vermoedelijk beter)
+- Eerste ip adres voor ssh: 192.168.0.200 (via MijnTelenet hehe ^^) (ifconfig ipv6: fe80::a994:e9b0:1dc1:d804)
+- passwd veranderd (zie LoginGegevens.txt) (hostname veranderd naar penpi (pi@penpi))
+- apt-get update en upgrade uitgevoerd
+- Compiler geupdate (4.9)
+- 
