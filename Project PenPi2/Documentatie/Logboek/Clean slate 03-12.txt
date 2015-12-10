@@ -18,4 +18,5 @@ Clean slate 03-12
 - mailme.py werkt (sudo python mailme.py)
 - mail laten verzenden bij boot (http://elinux.org/RPi_Email_IP_On_Boot_Debian#LET.27S_DO_IT.21)
 		--> mailme.py laten uitvoeren in rc.local, dit wordt uitgevoerd bij bootup.
--
+- aircrack en wifite packets geïnstalleerd en geupdated
+
