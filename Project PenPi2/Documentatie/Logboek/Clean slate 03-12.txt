@@ -21,3 +21,4 @@ Clean slate 03-12
 - aircrack en wifite packets geïnstalleerd en geupdated
 - algemene uitleg ivm aircrack (http://www.wirelesshack.org/step-by-step-kali-linux-and-wireless-hacking-basics-wep-hacking-part-3.html)
 - wifite.py blijft loopen op de vraag welke adapter we in monitor mode willen zetten: oplossing is de monitor manager af te zetten met commando: sudo /etc/init.d/network-manager stop
+- wep hacking commando: sudo python reaver-1.4/src/wifite.py -dict /pentests/passwords/wordlists/rockyou.txt (gelukt het wachtwoord van een met wep beveiligde acces point te vinden, dit was wel een ander wachtwoord dat hetgeen dat wij hadden ingevoerd op de acces point, maar toch konden we met dit wachtwoord inloggen)
