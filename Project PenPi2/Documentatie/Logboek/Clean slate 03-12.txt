@@ -20,3 +20,4 @@ Clean slate 03-12
 		--> mailme.py laten uitvoeren in rc.local, dit wordt uitgevoerd bij bootup.
 - aircrack en wifite packets geïnstalleerd en geupdated
 - algemene uitleg ivm aircrack (http://www.wirelesshack.org/step-by-step-kali-linux-and-wireless-hacking-basics-wep-hacking-part-3.html)
+- wifite.py blijft loopen op de vraag welke adapter we in monitor mode willen zetten: oplossing is de monitor manager af te zetten met commando: sudo /etc/init.d/network-manager stop
