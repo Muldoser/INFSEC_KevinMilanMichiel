@@ -22,6 +22,7 @@ Clean slate 03-12
 - algemene uitleg ivm aircrack (http://www.wirelesshack.org/step-by-step-kali-linux-and-wireless-hacking-basics-wep-hacking-part-3.html)
 - wifite.py blijft loopen op de vraag welke adapter we in monitor mode willen zetten: oplossing is de monitor manager af te zetten met commando: sudo /etc/init.d/network-manager stop
 - wep hacking commando: sudo python reaver-1.4/src/wifite-old.py -dict /pentests/passwords/wordlists/rockyou.txt (gelukt het wachtwoord van een met wep beveiligde acces point te vinden, dit was wel een ander wachtwoord dat hetgeen dat wij hadden ingevoerd op de acces point, maar toch konden we met dit wachtwoord inloggen)
-- Nmap geïnstalleerd om het netwerk te scannen
-- Wachtwoord van InfoSecTarget AP = 123456 bij attack 1 (eigenlijk al eens geprobeerd 29-12)
-- 
+- Nmap geïnstalleerd om het netwerk te scannen (handig: http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/)
+- ook handig voor nmap: https://www.linux.com/learn/tutorials/290879-beginners-guide-to-nmap
+- Wachtwoord van InfoSecTarget AP = 12345 bij attack 1 (eigenlijk al eens geprobeerd 29-12)
+- nmap scant voorlopig open ports van hosts die in 2.4GHz verbonden zijn op de wifi, geen 5GHz (ligt dit aan de wifidongle?)
