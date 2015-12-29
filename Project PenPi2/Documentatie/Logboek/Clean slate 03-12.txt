@@ -23,3 +23,5 @@ Clean slate 03-12
 - wifite.py blijft loopen op de vraag welke adapter we in monitor mode willen zetten: oplossing is de monitor manager af te zetten met commando: sudo /etc/init.d/network-manager stop
 - wep hacking commando: sudo python reaver-1.4/src/wifite-old.py -dict /pentests/passwords/wordlists/rockyou.txt (gelukt het wachtwoord van een met wep beveiligde acces point te vinden, dit was wel een ander wachtwoord dat hetgeen dat wij hadden ingevoerd op de acces point, maar toch konden we met dit wachtwoord inloggen)
 - Nmap geïnstalleerd om het netwerk te scannen
+- Wachtwoord van InfoSecTarget AP = 123456 bij attack 1 (eigenlijk al eens geprobeerd 29-12)
+- 
