@@ -10,8 +10,3 @@ volledige netwerk in kaart brengen zoals
 Handige site:
 http://www.tecmint.com/nmap-command-examples/
 
-Gebruikte options:
-nmap -vv very verbose
-nmap --open only show open ports
-nmap -O --os-scan show OS version
-nmap >output.txt output to txt file

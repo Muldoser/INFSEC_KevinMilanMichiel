@@ -1,0 +1,9 @@
+Gebruikte options:
+nmap -vv very verbose
+nmap --open only show open ports
+nmap -O --os-scan show OS version
+nmap >output.txt output to txt file
+
+commands to send automatic mail:
+watch -n1 command
+		--> n1 = every second --> n120 = every 2 minutes
