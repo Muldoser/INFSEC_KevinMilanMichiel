@@ -2,6 +2,22 @@ Project PenPi
 ==============
 *Kevin van de Mieroop, Milan Willems & Michiel Mulder*
 
+
+Mappen
+---------
+
+ - **[(PreProject)Documentatie](https://github.com/Muldoser/INFSEC_KevinMilanMichiel/tree/master/(PreProject)Documentatie)**
+
+	Oefeningen op virtual machines van voor de start van het project. Niet meer gebruikt in PenPi2.
+
+ - **[PenPi2 2014](https://github.com/Muldoser/INFSEC_KevinMilanMichiel/tree/master/PenPI%202014)**
+
+	Oorspronkelijk project, gebruikt om op verder te gaan.
+
+ - **[Project PenPi2](https://github.com/Muldoser/INFSEC_KevinMilanMichiel/tree/master/Project%20PenPi2)**
+ 
+	'*Working directory*', this is where the magic happens. Hier werken we zelf dus aan het project.
+
 Opgave
 ------
 
