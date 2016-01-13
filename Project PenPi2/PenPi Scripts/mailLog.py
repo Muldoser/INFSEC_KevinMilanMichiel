@@ -19,13 +19,13 @@ public_ip = getPublicIp()
 my_ip = open('/home/pi/reaver-1.4/src/log.txt', 'r').read();
 msg = MIMEText(my_ip)
 msg['Subject'] = 'IP For RaspberryPi on %s' % today.strftime('%b %d %Y')
-msg['From'] = 's079157@ap'
+msg['From'] = 's079157@ap.be'
 msg['To'] = to
 try :
         print("Telenet testen")
         smtpserver = smtplib.SMTP('uit.telenet.be', 25)
         smtpserver.ehlo()
-        smtpserver.sendmail('s079157@ap', [to], msg.as_string())
+        smtpserver.sendmail('s079157@ap.be', [to], msg.as_string())
         smtpserver.quit()
         print("telenet gelukt")
 except:
