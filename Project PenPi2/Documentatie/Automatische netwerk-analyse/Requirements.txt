@@ -2,12 +2,16 @@ volledige netwerk in kaart brengen zoals
 	-OS fingerprints (nmpa -A X.X.X.X --> geeft OS en versie van de host terug)
 	-Portscans (open/gesloten poorten)
 	-Gebruikte IP adressen (nmap -sP 192.168.1.0/24 (geeft lijst terug van al gebruikte adressen tussen 192.168.1.0-255))
-	-
-	-
+	-Hostnames
+	-Via mail doorsturen
 
-
-Deze informatie om de x aantal minuten doorsturen via mail
 
 
 Handige site:
 http://www.tecmint.com/nmap-command-examples/
+
+Gebruikte options:
+nmap -vv very verbose
+nmap --open only show open ports
+nmap -O --os-scan show OS version
+nmap >output.txt output to txt file
