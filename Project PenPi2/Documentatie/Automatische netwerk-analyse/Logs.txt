@@ -7,3 +7,7 @@ nmap >output.txt output to txt file
 commands to send automatic mail:
 watch -n1 command
 		--> n1 = every second --> n120 = every 2 minutes
+
+script gemaakt die eerst nmap uitvoert, en wegschrijft naar output.txt
+	--> wordt gemaild
+		--> script wordt via watch elke paar minuten uitgevoerd
