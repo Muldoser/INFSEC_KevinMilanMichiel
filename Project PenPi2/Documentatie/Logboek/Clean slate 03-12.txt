@@ -26,3 +26,5 @@ Clean slate 03-12
 - ook handig voor nmap: https://www.linux.com/learn/tutorials/290879-beginners-guide-to-nmap
 - Wachtwoord van InfoSecTarget AP = 12345 bij attack 1 (eigenlijk al eens geprobeerd 29-12)
 - nmap scant voorlopig open ports van hosts die in 2.4GHz verbonden zijn op de wifi, geen 5GHz (ligt dit aan de wifidongle?)
+- rc.local ingesteld dat monitor mode wordt afgezet alsook in 
+- nieuw commando voor wifite automatisch te runnen met de juist interface sudo python reaver-1.4/src/wifite-old.py -i mon0 -dict /pentests/passwords/wordlists/rockyou.txt
