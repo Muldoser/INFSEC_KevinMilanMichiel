@@ -1,0 +1,25 @@
+
+[32m  .;'                     `;,    
+[32m .;'  ,;'             `;,  `;,   [0mWiFite v2 (r87)
+[32m.;'  ,;'  ,;'     `;,  `;,  `;,  
+[32m::   ::   :   [37m( )[32m   :   ::   ::  [37mautomated wireless auditor
+[32m':.  ':.  ':. [37m/_\[32m ,:'  ,:'  ,:'  
+[32m ':.  ':.    [37m/___\[32m    ,:'  ,:'   [37mdesigned for Linux
+[32m  ':.       [37m/_____\[32m      ,:'     
+[32m           [37m/       \[32m             
+[0m
+[37m [+][0m targeting [32mWEP[0m encrypted networks
+[37m [+][0m set interface :[32mmon0[0m
+[37m [+][0m targeting [32mall access points[0m
+[37m [+][0m aircrack handshake verification [32menabled[0m
+
+[31m [!][33m the program [31mcowpatty[33m is not required, but is recommended[0m
+
+[37m [+][0m scanning for wireless devices...
+[37m [+] [32minitializing scan[0m ([32mmon0[0m), updates at 5 sec intervals, [32mCTRL+C[0m when ready.
+ [37m[0:00:00][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:00][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:00][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:01][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:01][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:01][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:02][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:02][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:02][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:03][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:03][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:03][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:03][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:04][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:04][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:04][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m0[0m clients found    [37m[0:00:05][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:05][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:05][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:06][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:06][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:06][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:07][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:07][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:07][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:07][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:08][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:08][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:08][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:09][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:09][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found    [37m[0:00:09][0m [32mscanning[0m wireless networks. [32m0[0m targets and [32m1[0m client found   [37m
+ [+][0m auto-targeted [32m0[0m access points
+
+
+[37m [+][0m quitting
+

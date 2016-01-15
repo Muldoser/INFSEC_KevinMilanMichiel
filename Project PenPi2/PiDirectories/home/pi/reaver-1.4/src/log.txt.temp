@@ -1,0 +1,29 @@
+
+[32m  .;'                     `;,    
+[32m .;'  ,;'             `;,  `;,   [0mWiFite v2 (r87)
+[32m.;'  ,;'  ,;'     `;,  `;,  `;,  
+[32m::   ::   :   [37m( )[32m   :   ::   ::  [37mautomated wireless auditor
+[32m':.  ':.  ':. [37m/_\[32m ,:'  ,:'  ,:'  
+[32m ':.  ':.    [37m/___\[32m    ,:'  ,:'   [37mdesigned for Linux
+[32m  ':.       [37m/_____\[32m      ,:'     
+[32m           [37m/       \[32m             
+[0m
+[37m [+][0m set interface :[32mmon0[0m
+[37m [+][0m targeting [32mall access points[0m
+[37m [+][0m minimum target power set to [32m50[0m
+[37m [+][0m aircrack handshake verification [32menabled[0m
+
+[31m [!][33m the program [31mcowpatty[33m is not required, but is recommended[0m
+
+[37m [+][0m scanning for wireless devices...
+[31m [!][33m could not find wireless interface [31m"[31mmon0"[33m in monitor mode
+[37m [+][0m enabling monitor mode on [32mmon0[0m... done
+[37m [+][0m interfaces in [32mmonitor mode:[0m
+  [32m1[0m. [32mmon4[0m
+  [32m2[0m. [32mmon5[0m
+  [32m3[0m. [32mmon6[0m
+[37m [+][0m select [32mnumber[0m of interface to use for capturing ([32m1-3[0m): [32m[31m
+ (^C)[33m interrupted
+[0m
+[37m [+][0m quitting
+
