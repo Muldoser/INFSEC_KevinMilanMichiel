@@ -28,3 +28,5 @@ Clean slate 03-12
 - nmap scant voorlopig open ports van hosts die in 2.4GHz verbonden zijn op de wifi, geen 5GHz (ligt dit aan de wifidongle?)
 - rc.local ingesteld dat monitor mode wordt afgezet alsook in 
 - nieuw commando voor wifite automatisch te runnen met de juist interface sudo python reaver-1.4/src/wifite-old.py -i mon0 -dict /pentests/passwords/wordlists/rockyou.txt
+  dit commando wordt bij het opstarten gestart zodat er een log.txt file wordt aangemaakt: sudo /home/pi/reaver-1.4/src/wifite.py -i mon0 -all -wep -dict /pentest/passwords/wordlists/rockyou.txt -aircrack > /home/pi/reaver-1.4/src/log.txt
+- toegevoegd bij rc.local om cracked.csv te monitoren en door te sturen bij een verandering sudo ./home/pi/Documents/PenPiScripts/watch.sh ~/cracked.csv python ~/Documents/PenPiScripts/mailCracked.py
