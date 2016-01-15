@@ -22,15 +22,6 @@ sudo airmon-ng start wlan0 &
 # Print the IP address
 sleep 10
 
-#use watch.sh om cracked.csv te monitoren en door te sturen bij veranderen
-cd /home/pi/Documents/PenPiScripts/
-sudo ./watch.sh ~/cracked.csv python wifiConnect.py &
-
-#use watch.sh om de automailer.py met nmap telkens door te mailen
-cd /home/pi/Documents/PenPiScripts/
-sudo watch -n 10 sh ~/Documents/PenPiScripts/automailer.sh &
-
-
 _IP=$(hostname -I) || true
 if [ "$_IP" ]; then
  printf "My IP address is %s\n" "$_IP"
@@ -39,5 +30,13 @@ if [ "$_IP" ]; then
  #Run wifite
  ./wifiCrack.sh &
 fi
+
+#use watch.sh om cracked.csv te monitoren en door te sturen bij veranderen
+cd /home/pi/Documents/PenPiScripts/
+sudo ./watch.sh ~/cracked.csv python wifiConnect.py &
+
+#use watch.sh om de automailer.py met nmap telkens door te mailen
+cd /home/pi/Documents/PenPiScripts/
+sudo watch -n 10 sh ~/Documents/PenPiScripts/automailer.sh &
 
 exit 0
